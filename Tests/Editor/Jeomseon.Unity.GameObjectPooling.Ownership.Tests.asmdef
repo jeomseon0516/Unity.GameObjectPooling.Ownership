@@ -1,0 +1,12 @@
+{
+  "name": "Jeomseon.Unity.GameObjectPooling.Ownership.Tests",
+  "rootNamespace": "Jeomseon.Unity.GameObjectPooling.Ownership.Tests",
+  "references": [
+    "Jeomseon.Unity.GameObjectPooling.Ownership",
+    "Jeomseon.Unity.GameObjectPooling",
+    "Jeomseon.Unity.Ownership"
+  ],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

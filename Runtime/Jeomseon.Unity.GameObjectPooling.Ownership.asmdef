@@ -1,0 +1,7 @@
+{
+  "name": "Jeomseon.Unity.GameObjectPooling.Ownership",
+  "rootNamespace": "Jeomseon.Unity.GameObjectPooling.Ownership",
+  "references": ["Jeomseon.Unity.GameObjectPooling", "Jeomseon.Unity.Ownership"],
+  "autoReferenced": true,
+  "noEngineReferences": false
+}

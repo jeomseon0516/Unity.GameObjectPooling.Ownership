@@ -1,0 +1,11 @@
+{
+  "name": "Jeomseon.Unity.GameObjectPooling.Ownership.Samples.BasicUsage",
+  "rootNamespace": "Jeomseon.Unity.GameObjectPooling.Ownership.Samples.BasicUsage",
+  "references": [
+    "Jeomseon.Unity.GameObjectPooling.Ownership",
+    "Jeomseon.Unity.GameObjectPooling",
+    "Jeomseon.Unity.Ownership"
+  ],
+  "autoReferenced": false,
+  "noEngineReferences": false
+}

@@ -1,0 +1,22 @@
+{
+  "name": "com.jeomseon.unity.game-object-pooling.ownership",
+  "version": "0.1.0",
+  "displayName": "Jeomseon Unity GameObject Pooling Ownership",
+  "description": "Ownership leases for spawned GameObjects and Components.",
+  "unity": "6000.6",
+  "unityRelease": "0f1",
+  "dependencies": {
+    "com.jeomseon.unity.game-object-pooling": "0.4.0",
+    "com.jeomseon.unity.ownership": "0.1.0"
+  },
+  "author": { "name": "jeomseon0516", "url": "https://github.com/jeomseon0516" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/jeomseon0516/Unity.GameObjectPooling.Ownership.git" },
+  "samples": [
+    {
+      "displayName": "Basic Usage",
+      "description": "Generated pooled-object ownership and automatic return on replacement.",
+      "path": "Samples~/BasicUsage"
+    }
+  ]
+}

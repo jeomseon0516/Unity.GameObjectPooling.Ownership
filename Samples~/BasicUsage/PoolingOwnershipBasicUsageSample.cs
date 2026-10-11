@@ -10,7 +10,7 @@ namespace Jeomseon.Unity.GameObjectPooling.Ownership.Samples.BasicUsage
         private GameObject _prefab;
         private GameObjectPoolScope _scope;
         private Handles.GameObjectPoolHandle _pool;
-        private int _spawned;
+        private int _spawnCount;
 
         private void Start()
         {
@@ -25,8 +25,8 @@ namespace Jeomseon.Unity.GameObjectPooling.Ownership.Samples.BasicUsage
         private void Replace()
         {
             var lease = _pool.SpawnOwned();
-            lease.Value.name = $"Owned Cube #{++_spawned}";
-            lease.Value.transform.position = Vector3.right * ((_spawned % 5) - 2);
+            lease.Value.name = $"Owned Cube #{++_spawnCount}";
+            lease.Value.transform.position = Vector3.right * ((_spawnCount % 5) - 2);
             SetSpawned(lease);
         }
 
